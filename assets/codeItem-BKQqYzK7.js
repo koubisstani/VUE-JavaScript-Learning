@@ -1,0 +1,1 @@
+import{_ as t,o as n,g as r,a as e,k as l}from"./index-NwAmraC0.js";const c={},a={style:{color:"lightblue"}};function d(o,s){return n(),r("div",null,[s[0]||(s[0]=e("br",null,null,-1)),e("p",a,[l(o.$slots,"code")]),e("p",null,[l(o.$slots,"item")])])}const u=t(c,[["render",d]]);export{u as c};

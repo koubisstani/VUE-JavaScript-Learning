@@ -1,0 +1,3 @@
+import{M as s}from"./MyTitle-BnWlqeve.js";import{M as r}from"./MyContainer2-D3PYsOJP.js";import{C as c}from"./CanvasInputCode-BgoGGRD9.js";import{_ as i,f as e,o as p,c as l,w as m,b as t}from"./index-NwAmraC0.js";const _={components:{"my-title":s,"my-container2":r,"canvas-input-code":c}};function f(d,u,y,h,C,v){const n=e("my-title"),o=e("canvas-input-code"),a=e("my-container2");return p(),l(a,null,{default:m(()=>[t(n,{title1:"Canvas exercises",title2:`To draw a car, it is an ellipse representing two lines next to the car's\r
+      body On behalf of the wheels, a small rectangle is placed in front of it\r
+      to represent the sensors of the car`}),t(o)]),_:1})}const b=i(_,[["render",f]]);export{b as default};
