@@ -8,7 +8,8 @@ const executeCodeLeft = () => {
   const code = codeLeft.value;
   // executable code
   try {
-    eval(code);
+    const func = new Function(code);
+    func();
   } catch (error) {
     console.error('Code execution error:', error);
   }

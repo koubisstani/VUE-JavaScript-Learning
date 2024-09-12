@@ -20,7 +20,8 @@ const executeCodeLeft = () => {
   const code = codeLeft.value
   // 执行代码
   try {
-    eval(code)
+    const func = new Function(code);
+    func();
   } catch (error) {
     console.error('代码执行出错:', error)
   }

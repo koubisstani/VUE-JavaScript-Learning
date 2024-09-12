@@ -51,7 +51,8 @@ export default {
     const executeCodeLeft = () => {
       try {
         const code = codeLeft.value
-        eval(code)
+        const func = new Function(code);
+    func();
       } catch (error) {
         console.error('Error executing code:', error)
       }
